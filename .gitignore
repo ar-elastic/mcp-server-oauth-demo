@@ -1,0 +1,15 @@
+# Secrets & credentials
+.env
+core/oauth-server/.env
+
+# OAuth session (contains live access token)
+core/shared/session.json
+
+# Dependencies
+node_modules/
+core/oauth-server/node_modules/
+core/mcp-server/node_modules/
+
+# Rust build artifacts
+core/tools-api/target/
+core/tools-api/Cargo.lock
